@@ -4,9 +4,116 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Weather App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <link rel="stylesheet" href="src/style.css" />
+    <script
+      src="https://kit.fontawesome.com/6cc16d3146.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
+
   <body>
-    <h1>Hello</h1>
+    <div class="weather-app">
+      <form id="search-form">
+      <input
+        class="search-bar"
+        type="text"
+        placeholder="Search City"
+        id="city-input"
+        autofocus
+      />
+      <input type="submit" value="🔍" />
+      <div
+        class="btn-group celcius-fahrenheit"
+        role="group"
+        aria-label="Basic radio toggle button group"
+      >
+      </form>
+        <input
+          type="radio"
+          class="btn-check"
+          name="btnradio"
+          id="btnradio1"
+          autocomplete="off"
+        />
+       <label class="btn btn-outline-primary" for="btnradio1" id="celsius-link">ºC</label>
+
+        <input
+          type="radio"
+          class="btn-check"
+          name="btnradio"
+          id="btnradio2"
+          autocomplete="off"
+        />
+
+        <label class="btn btn-outline-primary" for="btnradio3" id="fahrenheit-link">ºF</label>
+      </div>
+
+      <button id="current-location-button"> 📌</button>
+
+      <div class="row">
+        <div class="col-5 alpha">
+          <h1 id="city">London</h1>
+          <span id="date"></span>
+          <br />
+          <span id="weather-description">
+            Cloudy with sunny intervals
+          </span>
+        </div>
+        <div class="col-3">
+          <i class="fas fa-sun sunshine"></i>
+        </div>
+
+        <div class="col-4 beta">
+          <span class="main-temp" id="temperature"> 21 </span>
+          <br />
+          Humidity: <span id="humidity"></span>%  
+          <br />
+          Wind: <span id="wind"></span> km/h
+        </div>
+      </div>
+
+      <div class="row weather-forecast">
+        <div class="col-2">
+          <h3>Mon</h3>
+          <br />
+          <i class="fas fa-cloud-sun cloud-sun"></i>
+        </div>
+        <div class="col-2">
+          <h3>Tues</h3>
+          <br />
+          <i class="fas fa-cloud-sun-rain sun-rain"></i>
+        </div>
+        <div class="col-2">
+          <h3>Wed</h3>
+          <br />
+          <i class="fas fa-cloud-showers-heavy raining"></i>
+        </div>
+        <div class="col-2">
+          <h3>Thurs</h3>
+          <br />
+          <i class="fas fa-cloud-sun cloud-sun"></i>
+        </div>
+        <div class="col-2">
+          <h3>Fri</h3>
+          <br />
+          <i class="fas fa-cloud-sun-rain sunny-raining"></i>
+        </div>
+        <div class="col-2">
+          <h3>Sat</h3>
+          <br />
+          <i class="fas fa-sun sunny"></i>
+        </div>
+      </div>
+    </div>
+    <script src="src/script.js"></script>
   </body>
 </html>
