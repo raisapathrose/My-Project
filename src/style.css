@@ -68,3 +68,9 @@
   font-size: 50px;
   color: #f6d167;
 }
+
+#source-code {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
