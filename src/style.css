@@ -1,0 +1,70 @@
+.weather-app {
+  border: 1px solid #dadde1;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 600px;
+  border-radius: 15px;
+}
+.search-bar {
+  margin: 20px 0 0px 20px;
+  width: 50%;
+}
+
+.row {
+  margin: 0 20px;
+}
+
+.alpha {
+  padding: 0px 0px;
+  margin: 30px 0 0;
+}
+#weather-description {
+  font-size: 17px;
+}
+.beta {
+  margin: 30px 0 0;
+}
+
+.main-temp {
+  font-size: 40px;
+}
+.celcius-fahrenheit {
+  margin: 0 0 0 30px;
+}
+
+#current-location-button {
+  position: absolute;
+  right: 54px;
+  top: 59px;
+  padding: 10px auto;
+  border-radius: 30px;
+}
+.sunshine {
+  font-size: 75px;
+  color: #f6d167;
+  margin: 40px 0 0;
+}
+.weather-forecast {
+  padding: 40px;
+  margin: 0 auto;
+}
+.cloud-sun {
+  font-size: 50px;
+  color: #f6d167;
+}
+.sun-rain {
+  font-size: 50px;
+  color: #f6d167;
+}
+.raining {
+  font-size: 50px;
+  color: #f6d167;
+}
+.sunny-raining {
+  font-size: 50px;
+  color: #f6d167;
+}
+.sunny {
+  font-size: 50px;
+  color: #f6d167;
+}
