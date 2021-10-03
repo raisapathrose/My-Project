@@ -21,6 +21,9 @@
   </head>
 
   <body>
+    <div class="container">
+      <div class="weather-app-wrapper">
+    
     <div class="weather-app">
       <form id="search-form">
       <input
@@ -31,36 +34,9 @@
         autofocus
       />
       <input type="submit" value="🔍" />
-      <div
-        class="btn-group celcius-fahrenheit"
-        role="group"
-        aria-label="Basic radio toggle button group"
-      >
-      </form>
-        <input
-          type="radio"
-          class="btn-check"
-          name="btnradio"
-          id="btnradio1"
-          autocomplete="off"
-        />
-       <label class="btn btn-outline-primary" for="btnradio1" id="celsius-link">ºC</label>
-
-        <input
-          type="radio"
-          class="btn-check"
-          name="btnradio"
-          id="btnradio2"
-          autocomplete="off"
-        />
-
-        <label class="btn btn-outline-primary" for="btnradio3" id="fahrenheit-link">ºF</label>
-      </div>
-
-      <button id="current-location-button"> 📌</button>
 
       <div class="row">
-        <div class="col-5 alpha">
+        <div class="col-5 cityname">
           <h1 id="city">London</h1>
           <span id="date"></span>
           <br />
@@ -69,11 +45,12 @@
           </span>
         </div>
         <div class="col-3">
-          <i class="fas fa-sun sunshine"></i>
+          <i class="fas fa-sun sunshine" id="icon"></i>
         </div>
 
-        <div class="col-4 beta">
+        <div class="col-4 citytemp">
           <span class="main-temp" id="temperature"> 21 </span>
+          <span>ºC</span> <span>ºF</span>
           <br />
           Humidity: <span id="humidity"></span>%  
           <br />
@@ -113,8 +90,10 @@
           <i class="fas fa-sun sunny"></i>
         </div>
       </div>
+      </div>
+      <a href="https://github.com/raisapathrose/My-Project" id="source-code">Open source code</a> by Raisa Pathrose
     </div>
-    <a href="https://github.com/raisapathrose/My-Project">Open source code</a>
+    </div>
     <script src="src/script.js"></script>
   </body>
 </html>

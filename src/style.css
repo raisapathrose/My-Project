@@ -1,10 +1,14 @@
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 15px auto;
+}
+
 .weather-app {
   border: 1px solid #dadde1;
   padding: 20px;
-  margin: 15px auto;
-  max-width: 600px;
   border-radius: 15px;
 }
+
 .search-bar {
   margin: 20px 0 0px 20px;
   width: 50%;
@@ -14,22 +18,19 @@
   margin: 0 20px;
 }
 
-.alpha {
+.cityname {
   padding: 0px 0px;
   margin: 30px 0 0;
 }
 #weather-description {
   font-size: 17px;
 }
-.beta {
+.citytemp {
   margin: 30px 0 0;
 }
 
 .main-temp {
   font-size: 40px;
-}
-.celcius-fahrenheit {
-  margin: 0 0 0 30px;
 }
 
 #current-location-button {
@@ -67,10 +68,4 @@
 .sunny {
   font-size: 50px;
   color: #f6d167;
-}
-
-#source-code {
-  text-align: center;
-  display: block;
-  margin: 0 auto;
 }
