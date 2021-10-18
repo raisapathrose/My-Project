@@ -22,6 +22,23 @@
   padding: 0px 0px;
   margin: 30px 0 0;
 }
+
+#col-4,
+#citytemp,
+#celsius {
+  position: relative;
+  float: right;
+  right: 55px;
+  top: 11px;
+}
+#col-4,
+#citytemp,
+#fahrenheit {
+  position: relative;
+  float: right;
+  right: 39px;
+  top: 30px;
+}
 #weather-description {
   font-size: 17px;
 }
