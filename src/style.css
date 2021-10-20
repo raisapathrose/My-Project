@@ -28,16 +28,18 @@
 #celsius {
   position: relative;
   float: right;
-  right: 55px;
+  right: 74px;
   top: 11px;
+  text-decoration: none;
 }
 #col-4,
 #citytemp,
 #fahrenheit {
   position: relative;
   float: right;
-  right: 39px;
+  right: 58px;
   top: 30px;
+  text-decoration: none;
 }
 #weather-description {
   font-size: 17px;
