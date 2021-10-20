@@ -18,6 +18,22 @@
   margin: 0 20px;
 }
 
+#col-5,
+#cityname {
+  font-size: 16px;
+}
+#col-5,
+#cityname,
+#date {
+  font-size: 15px;
+}
+
+#col-5,
+#cityname,
+#weather-description {
+  font-size: 14px;
+}
+
 .cityname {
   padding: 0px 0px;
   margin: 30px 0 0;
@@ -25,31 +41,25 @@
 
 #col-4,
 #citytemp,
-#celsius {
-  position: relative;
-  float: right;
-  right: 74px;
-  top: 11px;
+#celsius-link {
+  top: 20px;
+  right: 50px;
   text-decoration: none;
 }
 #col-4,
 #citytemp,
-#fahrenheit {
-  position: relative;
-  float: right;
-  right: 58px;
+#fahrenheit-link {
   top: 30px;
+  right: 50px;
   text-decoration: none;
 }
-#weather-description {
-  font-size: 17px;
-}
+
 .citytemp {
   margin: 30px 0 0;
 }
 
 .main-temp {
-  font-size: 40px;
+  font-size: 45px;
 }
 
 #current-location-button {
