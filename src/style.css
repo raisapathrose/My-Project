@@ -65,26 +65,19 @@
   margin: 40px 0 0;
 }
 .weather-forecast {
-  padding: 40px;
-  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
 }
-.cloud-sun {
-  font-size: 50px;
-  color: #f6d167;
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
 }
-.sun-rain {
-  font-size: 50px;
-  color: #f6d167;
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
 }
-.raining {
-  font-size: 50px;
-  color: #f6d167;
-}
-.sunny-raining {
-  font-size: 50px;
-  color: #f6d167;
-}
-.sunny {
-  font-size: 50px;
-  color: #f6d167;
+
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
