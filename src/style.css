@@ -28,6 +28,10 @@
   font-size: 15px;
 }
 
+.col-4 #citytemp, #units {
+position: relative;
+top: -20px;
+}
 #col-5,
 #cityname,
 #weather-description {
